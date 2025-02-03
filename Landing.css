@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Rocket Pop Punch';
+    src: url('rocketpop.otf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+}
+
+canvas {
+    display: block;
+}
+
+.AboutUs {
+    text-align: center;
+    font-size: 15px;
+}
+
+.is-center {
+    text-align: center;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.pure-button {
+    background-color: transparent;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
+
+a.pure-button-primary {
+    background: white;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 120%;
+}
+
+.splash-container {
+    font-family: 'Rocket Pop Punch';
+    background: #000000;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 88%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.splash {
+    width: 80%;
+    height: 50%;
+    margin: 50px auto;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.splash-head {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    border-radius: 5px;
+    line-height: 1.5em;
+    margin-top: 10%;
+}
+
+.splash-subhead {
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.content-wrapper {
+    position: absolute;
+    top: 87%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background: white;
+}
+
+.content {
+    padding: 1em 1em 3em;
+}
+
+.content-head {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+}
+
+.content-subhead {
+    color: #000000;
+}
+
+.footer {
+    background: #111;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

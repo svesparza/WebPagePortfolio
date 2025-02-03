@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Planner</title>
+    <link rel="stylesheet" href="MealPlan.css">
+</head>
+<body>
+    <div id="matrix" class="matrix-animation"></div>
+
+    <div id="splash">
+        <h1 id="splash-head">Meal Planner</h1>
+        <div id="mealPlanner">
+            <p id="mealName"></p>
+            <p id="calories">Calories: <span id="caloriesValue">N/A</span></p>
+            <button id="viewRecipeBtn">View Recipe</button>
+        </div>
+    </div>
+
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Recipe</h2>
+            <h3>Ingredients:</h3>
+            <ul id="ingredientsList"></ul>
+        </div>
+    </div>
+
+    <a href="Gym.html" class="back-button">&#8592; Homepage</a>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="MealPlan.js"></script>
+    <script src="GlitchEffect.js"></script>
+</body>
+</html>
+<!-- https://purecss.io/layouts/marketing/ -->

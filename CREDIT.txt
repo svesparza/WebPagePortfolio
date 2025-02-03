@@ -1,0 +1,8 @@
+// glitch help from this stack overflow letters https://stackoverflow.com/questions/64816798/glitch-effect-with-javascript
+
+Matrix Code by Clive Cooper 
+//https://codepen.io/yaclive/pen/EayLYO
+
+
+
+<!-- https://purecss.io/layouts/marketing/ --> 

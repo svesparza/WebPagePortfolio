@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Rocket Pop Straight';
+    src: url('rocketpopstraight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Bebas-Regular';
+    src: url('Bebas-Regular.otf') format('opentype');
+}
+body {
+    font-family: 'Bebas-Regular';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    margin: 0;
+    background-color: black;
+    color: #ffffff;
+}
+
+#matrix {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#splash {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#splash-head {
+    font-size: 50px;
+}
+
+#Summary_About {
+    text-align: center;
+    color: #ffffff;
+}
+
+#Resume{
+    text-align: left; 
+
+}
+
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
